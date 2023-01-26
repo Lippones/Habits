@@ -7,7 +7,7 @@ generator client {
 
 datasource db {
   provider = "postgresql"
-  url      = "postgres://postgres:dwpq2jnza4@localhost:5432/nlw"
+  url      = env("DATABASE_URL")
 }
 
 model Habit {
