@@ -2,9 +2,9 @@ import { createNativeStackNavigator } from '@react-navigation/native-stack'
 
 const { Navigator, Screen } = createNativeStackNavigator()
 
-import { Home } from '../screens/Home'
-import { New } from '../screens/New'
 import { Habit } from '../screens/Habit'
+import { New } from '../screens/New'
+import { Home } from '../screens/Home'
 
 export function AppRoutes() {
     return (
