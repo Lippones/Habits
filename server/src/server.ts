@@ -3,7 +3,9 @@ import cors from '@fastify/cors'
 import { appRoutes } from './routes'
 const app = Fastify()
 
-app.register(cors)
+app.register(cors, {
+    origin: '*'
+})
 app.register(appRoutes)
 
 app.listen({
