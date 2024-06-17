@@ -5,7 +5,7 @@
   "license": "MIT",
   "scripts": {
     "dev": "tsx watch src/server.ts",
-    "deploy": "npm prisma migrate deploy && npm run seed"
+    "deploy": "pnpm prisma migrate deploy && pnpm prisma db seed"
   },
   "dependencies": {
     "@fastify/cors": "^8.2.0",
