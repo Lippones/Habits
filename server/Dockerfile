@@ -23,4 +23,4 @@ COPY --from=build /app /app
 
 EXPOSE 3333
  
-CMD sh -c "pnpm run deploy && pnpm run dev"
+CMD sh -c "pnpm run dev"
