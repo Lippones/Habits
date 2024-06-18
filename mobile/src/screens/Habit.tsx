@@ -45,6 +45,7 @@ export function Habit() {
 		? generateProgressPercentage(dayInfo.possibleHabits.length, completedHabits.length)
 		: 0
 
+
 	async function fetchHabits() {
 		try {
 			setLoading(true)
