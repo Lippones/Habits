@@ -1,0 +1,12 @@
+{
+  "expo": {
+    "extra": {
+      "eas": {
+        "projectId": "5c71d082-49d5-41d8-bc43-32a1d3d4b6da"
+      }
+    },
+    "android": {
+      "package": "com.lippedev.habits"
+    }
+  }
+}
