@@ -14,7 +14,7 @@ import { generateDatesFromYearBeginning } from '../utils/generate-dates-from-yea
 import { api } from '../lib/axios'
 import dayjs from 'dayjs'
 
-const weekDays = ['D', 'S', 'T', 'Q', 'Q', 'S', 'S']
+const weekDays = ['S', 'T', 'Q', 'Q', 'S', 'S', 'D']
 const datesFromYearStart = generateDatesFromYearBeginning()
 const minimumSummaryDatesSizes = 18 * 6
 const amountOfDaysToFill = minimumSummaryDatesSizes - datesFromYearStart.length

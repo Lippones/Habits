@@ -4,13 +4,14 @@ import { api } from "../lib/axios"
 import { generateDatesFromYearBeginning } from "../utils/generate-dates-from-year-begining"
 import { HabitDay } from "./HabitDay"
 import { WeekDay } from "./WeekDay"
-const weekDay = ["D",
+const weekDay = [
     "S",
     "T",
     "Q",
     "Q",
     "S",
-    "S"]
+    "S",
+    "D",]
 const summaryDates = generateDatesFromYearBeginning()
 const minumumSummaryDateSizes = 18 * 7
 const amountOfDateToFill = minumumSummaryDateSizes - summaryDates.length
